@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MongoService {
-    private static final String URI = "mongodb://kmanjuna:mongo54321@ac-jr93znf-shard-00-00.fdki3w5.mongodb.net:27017,ac-jr93znf-shard-00-01.fdki3w5.mongodb.net:27017,ac-jr93znf-shard-00-02.fdki3w5.mongodb.net:27017/?w=majority&retryWrites=true&tls=true&authMechanism=SCRAM-SHA-1";
+    private static final String URI = "mongodb://&authMechanism=SCRAM-SHA-1";
 
     /**
      * Inserts input document to the Mongo DB collection.
